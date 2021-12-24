@@ -45,27 +45,13 @@ namespace Presentation.Controllers
         [HttpPost("Buy")]
         public ActionResult Buy([FromBody] Transaction transaction)
         {
-            try
-            {
-                return Ok(service.BuyTrasaction(transaction.EquityName, transaction.Quantity, transaction.TransactionDateTime));
-            }
-            catch(Exception e)
-            {
-                return BadRequest(e.Message);
-            }
+            return Ok(service.BuyTransaction(transaction.EquityName, transaction.Quantity, transaction.TransactionDateTime));
         }
 
         [HttpPost("Sell")]
         public ActionResult Sell([FromBody] Transaction transaction)
         {
-            try
-            {
-                return Ok(service.SellTrasaction(transaction.EquityName, transaction.Quantity, transaction.TransactionDateTime));
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
+            return Ok(service.SellTransaction(transaction.EquityName, transaction.Quantity, transaction.TransactionDateTime));
         }
     }
 }

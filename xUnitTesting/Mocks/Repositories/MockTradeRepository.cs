@@ -17,6 +17,13 @@ namespace xUnitTesting.Mocks.Repositories
             return this;
         }
 
+        public MockTradeRepository MockUpdateTrader(Trader result)
+        {
+            Setup(x => x.UpdateTrader(result)).Returns(result);
+
+            return this;
+        }
+
         public MockTradeRepository VerifyGetTraderDetails(Times times)
         {
             Verify(x => x.GetTraderDetails(),times);

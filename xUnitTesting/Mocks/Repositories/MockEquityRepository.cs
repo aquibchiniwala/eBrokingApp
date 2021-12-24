@@ -21,9 +21,9 @@ namespace xUnitTesting.Mocks.Repositories
             return this;
         }
 
-        public MockEquityRepository MockGetEquityByName(Equity result)
+        public MockEquityRepository MockGetEquityByName(string equityName, Equity result)
         {
-            Setup(x => x.GetEquityByName(It.IsAny<string>())).Returns(result);
+            Setup(x => x.GetEquityByName(equityName)).Returns(result);
             return this;
         }
     }

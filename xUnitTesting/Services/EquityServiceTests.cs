@@ -86,5 +86,25 @@ namespace xUnitTesting.Services
             Assert.NotNull(resultEquity);
 
         }
+
+        // Test Scenario case 5: Valid All Equities
+        [Fact]
+        public void EquityService_GetAllEquities_ValidEquities()
+        {
+            var equities = new List<Equity> { new Equity { EquityId = 1, EquityName = "TCS".ToUpper(), CMP = 2000 } };
+            // Arrange
+            var mockEquityRepo = new MockEquityRepository().MockGetAllEquities(equities);
+
+            // Create Service
+            EquityService equityService = new EquityService(mockEquityRepo.Object);
+
+            // Act
+            var resultEquities = equityService.GetAllEquities();
+
+            //Assert 
+            // Equity list is not empty
+            Assert.NotEmpty(resultEquities);
+
+        }
     }
 }

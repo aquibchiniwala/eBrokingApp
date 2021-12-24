@@ -9,7 +9,7 @@ namespace Business.Interfaces
     {
         public Trader GetTraderDetails();
         public Trader AddFunds(double amount);
-        public Trader BuyTrasaction(string equityName, int quantity, DateTime transactionDateTime);
-        public Trader SellTrasaction(string equityName, int quantity, DateTime transactionDateTime);
+        public Trader BuyTransaction(string equityName, int quantity, DateTime transactionDateTime);
+        public Trader SellTransaction(string equityName, int quantity, DateTime transactionDateTime);
     }
 }

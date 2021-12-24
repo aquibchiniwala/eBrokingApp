@@ -224,33 +224,36 @@ var assemblies = [
   {
     "name": "Business",
     "classes": [
-      { "name": "Business.Services.EquityService", "rp": "Business_EquityService.html", "cl": 10, "ucl": 3, "cal": 13, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Business.Services.TradeService", "rp": "Business_TradeService.html", "cl": 7, "ucl": 66, "cal": 73, "tl": 130, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 28, "lch": [], "bch": [], "hc": [] },
+      { "name": "Business.Services.EquityService", "rp": "Business_EquityService.html", "cl": 13, "ucl": 0, "cal": 13, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Business.Services.TradeService", "rp": "Business_TradeService.html", "cl": 65, "ucl": 4, "cal": 69, "tl": 126, "ct": "LineCoverage", "mc": "-", "cb": 25, "tb": 28, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "Presentation",
     "classes": [
-      { "name": "Presentation.Controllers.TradeController", "rp": "Presentation_TradeController.html", "cl": 7, "ucl": 18, "cal": 25, "tl": 71, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Presentation.Models.Transaction", "rp": "Presentation_Transaction.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 19, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Presentation.Controllers.TradeController", "rp": "Presentation_TradeController.html", "cl": 17, "ucl": 0, "cal": 17, "tl": 57, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Presentation.Models.Transaction", "rp": "Presentation_Transaction.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 19, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Presentation.Program", "rp": "Presentation_Program.html", "cl": 0, "ucl": 25, "cal": 25, "tl": 48, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "Presentation.Startup", "rp": "Presentation_Startup.html", "cl": 0, "ucl": 26, "cal": 26, "tl": 63, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 6, "lch": [], "bch": [], "hc": [] },
-      { "name": "Presentation.WeatherForecast", "rp": "Presentation_WeatherForecast.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 15, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "Repository",
     "classes": [
       { "name": "Repository.DBContext", "rp": "Repository_DBContext.html", "cl": 0, "ucl": 9, "cal": 9, "tl": 25, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Repository.DbInitializer", "rp": "Repository_DbInitializer.html", "cl": 0, "ucl": 28, "cal": 28, "tl": 47, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 6, "lch": [], "bch": [], "hc": [] },
-      { "name": "Repository.Entity.Equity", "rp": "Repository_Equity.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 15, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Repository.Entity.Portfolio", "rp": "Repository_Portfolio.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Repository.Entity.Trader", "rp": "Repository_Trader.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Repository.Entity.Equity", "rp": "Repository_Equity.html", "cl": 2, "ucl": 1, "cal": 3, "tl": 15, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Repository.Entity.Portfolio", "rp": "Repository_Portfolio.html", "cl": 3, "ucl": 1, "cal": 4, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Repository.Entity.Trader", "rp": "Repository_Trader.html", "cl": 2, "ucl": 2, "cal": 4, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Repository.Operations.EquityRepository", "rp": "Repository_EquityRepository.html", "cl": 0, "ucl": 13, "cal": 13, "tl": 34, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "Repository.Operations.TraderRepository", "rp": "Repository_TraderRepository.html", "cl": 0, "ucl": 12, "cal": 12, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "Utility",
     "classes": [
-      { "name": "Utility.Helper", "rp": "Utility_Helper.html", "cl": 5, "ucl": 18, "cal": 23, "tl": 45, "ct": "LineCoverage", "mc": "-", "cb": 1, "tb": 12, "lch": [], "bch": [], "hc": [] },
+      { "name": "Utility.Exceptions.EquityNotInHoldingsException", "rp": "Utility_EquityNotInHoldingsException.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 14, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Utility.Exceptions.InsufficientFundsException", "rp": "Utility_InsufficientFundsException.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 15, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Utility.Exceptions.InvalidEquityException", "rp": "Utility_InvalidEquityException.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Utility.Exceptions.MarketClosedException", "rp": "Utility_MarketClosedException.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Utility.Helpers", "rp": "Utility_Helpers.html", "cl": 20, "ucl": 0, "cal": 20, "tl": 42, "ct": "LineCoverage", "mc": "-", "cb": 11, "tb": 12, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 

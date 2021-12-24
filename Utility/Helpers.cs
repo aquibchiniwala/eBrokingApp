@@ -4,17 +4,17 @@ using System.Text;
 
 namespace Utility
 {
-    public static class Helper
+    public static class Helpers
     {
         public static double CalculateBrokerage(double transactionAmount)
         {
-            if ((transactionAmount * 0.05/100) < 20)
+            if ((transactionAmount * 0.05 / 100) < 20)
             {
                 return 20;
             }
             else
             {
-                return (transactionAmount * 0.05)/100;
+                return (transactionAmount * 0.05) / 100;
             }
         }
 
@@ -22,7 +22,7 @@ namespace Utility
         {
             if (amount > 100000)
             {
-                return (amount * 0.05)/100;
+                return (amount * 0.05) / 100;
             }
             else
             {
@@ -32,12 +32,9 @@ namespace Utility
 
         public static bool IsMarketOpen(DateTime transactionDateTime)
         {
-            if (transactionDateTime.DayOfWeek != DayOfWeek.Saturday && transactionDateTime.DayOfWeek != DayOfWeek.Sunday)
+            if ((transactionDateTime.DayOfWeek != DayOfWeek.Saturday && transactionDateTime.DayOfWeek != DayOfWeek.Sunday) && (transactionDateTime.Hour >= 9 && transactionDateTime.Hour <= 15))
             {
-                if (transactionDateTime.Hour >= 9 && transactionDateTime.Hour <= 15)
-                {
-                    return true;
-                }
+                return true;
             }
             return false;
         }

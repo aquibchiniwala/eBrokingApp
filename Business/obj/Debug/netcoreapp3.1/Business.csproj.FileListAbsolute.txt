@@ -1,0 +1,15 @@
+D:\NAGP\UnitTesting\eBrokingApp\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+D:\NAGP\UnitTesting\eBrokingApp\Business\bin\Debug\netcoreapp3.1\Business.dll
+D:\NAGP\UnitTesting\eBrokingApp\Business\bin\Debug\netcoreapp3.1\Business.pdb
+D:\NAGP\UnitTesting\eBrokingApp\Business\bin\Debug\netcoreapp3.1\Repository.dll
+D:\NAGP\UnitTesting\eBrokingApp\Business\bin\Debug\netcoreapp3.1\Repository.pdb
+D:\NAGP\UnitTesting\eBrokingApp\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+D:\NAGP\UnitTesting\eBrokingApp\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+D:\NAGP\UnitTesting\eBrokingApp\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+D:\NAGP\UnitTesting\eBrokingApp\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+D:\NAGP\UnitTesting\eBrokingApp\Business\obj\Debug\netcoreapp3.1\Business.dll
+D:\NAGP\UnitTesting\eBrokingApp\Business\obj\Debug\netcoreapp3.1\Business.pdb
+D:\NAGP\UnitTesting\eBrokingApp\Business\bin\Debug\netcoreapp3.1\Utility.dll
+D:\NAGP\UnitTesting\eBrokingApp\Business\bin\Debug\netcoreapp3.1\Utility.pdb
+D:\NAGP\UnitTesting\eBrokingApp\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+D:\NAGP\UnitTesting\eBrokingApp\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig

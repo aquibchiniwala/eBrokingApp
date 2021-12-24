@@ -1,0 +1,10 @@
+D:\NAGP\UnitTesting\eBrokingApp\DataAccess\bin\Debug\netcoreapp3.1\Repository.deps.json
+D:\NAGP\UnitTesting\eBrokingApp\DataAccess\bin\Debug\netcoreapp3.1\Repository.dll
+D:\NAGP\UnitTesting\eBrokingApp\DataAccess\bin\Debug\netcoreapp3.1\Repository.pdb
+D:\NAGP\UnitTesting\eBrokingApp\DataAccess\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+D:\NAGP\UnitTesting\eBrokingApp\DataAccess\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+D:\NAGP\UnitTesting\eBrokingApp\DataAccess\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+D:\NAGP\UnitTesting\eBrokingApp\DataAccess\obj\Debug\netcoreapp3.1\Repository.dll
+D:\NAGP\UnitTesting\eBrokingApp\DataAccess\obj\Debug\netcoreapp3.1\Repository.pdb
+D:\NAGP\UnitTesting\eBrokingApp\DataAccess\obj\Debug\netcoreapp3.1\Repository.csproj.AssemblyReference.cache
+D:\NAGP\UnitTesting\eBrokingApp\DataAccess\obj\Debug\netcoreapp3.1\Repository.GeneratedMSBuildEditorConfig.editorconfig
